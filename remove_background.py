@@ -14,5 +14,3 @@ for file in files:
 
     print('backgroundremover -i "' + str(img_name_input) + '" -o "' + str(img_name_output)+'"')
     os.system('backgroundremover -i "' + str(img_name_input) + '" -o "' + str(img_name_output)+'"')
-
-1
